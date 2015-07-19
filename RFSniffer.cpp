@@ -55,7 +55,7 @@ int main(int argc, char *argv[]) {
           //printf("Unknown encoding\n"); // Commented this
         } else {    
 
-          if (value == 12345) {
+          if (value == 12345) { // Modify this value, as in the .ino
            char buff[DTTMSZ];
            fstream filestr;
            filestr.open ("log.txt", fstream::out|fstream::app);
